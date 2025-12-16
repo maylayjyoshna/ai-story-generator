@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NarratoAI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📖 NarratoAI</h1>
+
+    <select id="genre">
+      <option>Fantasy</option>
+      <option>Horror</option>
+      <option>Romance</option>
+      <option>Sci-Fi</option>
+    </select>
+
+    <input id="characters" placeholder="Characters">
+    <textarea id="theme" placeholder="Story theme"></textarea>
+
+    <button onclick="generateStory()">Generate Story</button>
+
+    <pre id="output"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
